@@ -7,3 +7,6 @@ Ejemplo:
 input: Hola mundo
 Output: oauo
 */
+
+let frase = prompt("Escribe una frase:");
+
