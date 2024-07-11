@@ -1,6 +1,10 @@
-const nombreUsuario = prompt("Por favor, ingresa tu nombre:");
-document.write(`Hola ` + nombreUsuario + "<br>");
+/*.- Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga «Hola nombreUsuario»
+Ejemplo: 
 
-let n1 = prompt("Escribe un número");
-let n2 = prompt("Escribe otro número");
-document.write("La suma es: " + (parseInt(n1) + parseInt(n2)) + "<br>");
+input: Coder 
+Output: Hola Coder
+*/
+
+const nombreUsuario = prompt("Por favor, ingresa tu nombre:");
+document.write(`Hola ` + nombreUsuario);
+
